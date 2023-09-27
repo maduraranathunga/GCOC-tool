@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>\\berfilesrv01\software%24\M_App_Deployment\GCOCAutomation\|\\barfilesrv01\software%24\M_App_Deployment\GCOCAutomation\|\\barfilesrv01\Software%24\GCOCAutomation\|C:\Users\wasanthak\Desktop\GCOC Automation\</PublishUrlHistory>
+    <InstallUrlHistory>\\barfilesrv01\Software%24\GCOCAutomation\|\\barfilesrv01\Brandix Essentials Rathmalana\VS\VS LOGO Input\New folder\GCOCAutomation\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>\\barfilesrv01\Software%24\GCOCAutomation\|\\barfilesrv01\Brandix Essentials Rathmalana\VS\VS LOGO Input\New folder\GCOCAutomation\</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

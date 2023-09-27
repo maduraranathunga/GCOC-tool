@@ -1,0 +1,85 @@
+﻿<my:RibbonWindow xmlns:my="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"  x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" 
+        Title="GCOC Automation" Height="350" Width="525" WindowStyle="SingleBorderWindow" Foreground="White" WindowState="Maximized" Icon="/GCOCAutomation;component/Images/GCOCLogo.ico" BorderThickness="1,0,0,0" ShowActivated="True">
+    <my:RibbonWindow.Resources>
+        <BitmapImage UriSource="Images/toggleon1.png"  x:Name="ON" x:Key="ON"></BitmapImage>
+        <BitmapImage UriSource="Images/toggleoff1.png"  x:Name="OFF" x:Key="OFF"></BitmapImage>
+        <BitmapImage UriSource="Images/start.png"  x:Name="Start" x:Key="Start"></BitmapImage>
+        <BitmapImage UriSource="Images/stop.png"  x:Name="Stop" x:Key="Stop"></BitmapImage>
+     </my:RibbonWindow.Resources>
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition MinHeight="20" Height="137" />
+            <RowDefinition MinHeight="20" Height="172*" />
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <my:Ribbon Name="RibbonMy" IsEnabled="True" Grid.Row="0" Margin="0" Background="#C931E0FF" BorderBrush="#FF65E6FF" CheckedBackground="#FF00B0FF" CheckedBorderBrush="{x:Null}" FocusedBackground="#FF00B0FF" FocusedBorderBrush="{x:Null}" Foreground="#FF0F0F0F" MouseOverBackground="#FF00B0FF" MouseOverBorderBrush="{x:Null}" PressedBackground="#FF00B0FF" PressedBorderBrush="{x:Null}">
+           
+            <my:Ribbon.QuickAccessToolBar>
+                <my:RibbonQuickAccessToolBar>
+                    <my:RibbonButton x:Name ="btnSave" SmallImageSource="Images\saveHS.png" />
+                    <my:RibbonButton x:Name ="btnUndo" SmallImageSource="Images\Edit_UndoHS.png" Command="Undo" />
+                    <my:RibbonButton x:Name="btnRedo" SmallImageSource="Images\Edit_RedoHS.png" Command="Redo" />
+                </my:RibbonQuickAccessToolBar>
+            </my:Ribbon.QuickAccessToolBar>
+           
+                <my:RibbonTab Header="Home" KeyTip="H" Foreground="#FF0F0F0F">
+                <my:RibbonGroup Header="Clipboard" FontFamily="Segoe UI Symbol" FontSize="11">
+                    <my:RibbonButton LargeImageSource="Images\paste.png" Label="Paste" KeyTip="V" Name="btnPaste" Command="Paste"/>
+                    <my:RibbonButton SmallImageSource="Images\cut.png" Label="Cut" KeyTip="X" Name="btnCut" Command="Cut" />
+                    <my:RibbonButton SmallImageSource="Images\copy.png" Label="Copy" KeyTip="C" Name="btnCopy" Command="Copy"/>
+                    <my:RibbonButton SmallImageSource="Images\rc_bitmap.ico" Label="Format Painter" KeyTip="FP" />
+                </my:RibbonGroup>
+                <my:RibbonGroup x:Name="Data" Header="Data" FontSize="11">
+                    <my:RibbonButton LargeImageSource="Images\export48x48.png" Label="Export To Acsess" KeyTip="V" Name="btnExport"/>
+                   
+                </my:RibbonGroup>
+                <my:RibbonGroup x:Name="Run" Header="Run" FontSize="11">
+                    <my:RibbonRadioButton Label="India" IsChecked="True" Name="tglIndia" SmallImageSource="Images\toggleon1.png" Margin="0,7,0,5" Width="80" HorizontalContentAlignment="Left" BorderBrush="{x:Null}" />
+                    <my:RibbonRadioButton Label="Sri Lanka"  Name="tglSriLanka"  SmallImageSource="Images\toggleoff1.png" Margin="0,5" Width="80" HorizontalContentAlignment="Left" />
+                   <my:RibbonToggleButton Label="Start"  Name="tglStart"  LargeImageSource="Images\stop.png" Margin="5,0" />
+                    
+                </my:RibbonGroup>
+            </my:RibbonTab>
+            <my:RibbonTab Header="Settings" KeyTip="I" Foreground="#FF0F0F0F">
+                <my:RibbonGroup x:Name="Settings" Header="Settings" FontSize="11">
+                    <my:RibbonButton LargeImageSource="Images\locks.png" Label="Credentials" Name="btnCredential" />
+                    <my:RibbonButton LargeImageSource="Images\Folder_Open.png" Label="VPO Folder" Name="btnFolder" ToolTipTitle="GCOC Folder"/>
+                    <my:RibbonButton LargeImageSource="Images\Settings-1.png" Label="Reset Settings" Name="btnSettingReset" ToolTipTitle="Reset Settings"/>
+               </my:RibbonGroup>
+            </my:RibbonTab>
+            <my:RibbonTab Header="Help" KeyTip="L" Foreground="#FF0F0F0F">
+                <my:RibbonGroup>
+                <my:RibbonButton LargeImageSource="Images\About.png" Label="About" Name="btnAbout">
+
+                </my:RibbonButton>
+                </my:RibbonGroup>
+            </my:RibbonTab>
+
+        </my:Ribbon>
+
+        <WindowsFormsHost Name="winHost" Grid.Row="1" Visibility="Hidden" >
+            <WindowsFormsHost.Child>
+                <wf:WebBrowser x:Name="WebBrowser"></wf:WebBrowser>
+            </WindowsFormsHost.Child>
+
+        </WindowsFormsHost>
+
+        <Image Grid.Row="1" Source="/GCOCAutomation;component/Images/GCOC%20Automation%20-%20Copy.png" Stretch="Uniform"  Name="ImageFront" />
+        <StatusBar Grid.Row="2" Height="22" Name="StatusBar1" VerticalAlignment="Bottom" Background="#FF82F0F9" BorderBrush="#C931C4FF" BorderThickness="1">
+
+            <StatusBarItem Name="stsitemBrowser"/>
+            <StatusBarItem HorizontalAlignment="Right" Padding="0">
+                <StackPanel Orientation="Horizontal">
+                    <ProgressBar Height="15" Width="120" Name="pgrsbarBrowser" Maximum="100" Minimum="0" Background="White" BorderBrush="{x:Null}" Foreground="#C931ADFF"></ProgressBar>
+                    <StatusBarItem Padding="10,0" Name="stsitemStatus" />
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+        
+    </Grid>
+</my:RibbonWindow>

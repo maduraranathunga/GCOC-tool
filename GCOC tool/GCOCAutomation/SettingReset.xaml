@@ -1,0 +1,21 @@
+﻿<Window x:Class="SettingReset"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Reset Settings" Height="199" Width="594" Background="#FFD5F9FF" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False" Topmost="True">
+    <Grid Width="573">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="526*" />
+            <ColumnDefinition Width="47*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Application       :" HorizontalAlignment="Left"  VerticalAlignment="top" Margin="47,44,0,0" Width="123" Height="25" />
+        <Label Content="Value                :" Height="25" HorizontalAlignment="Left" VerticalAlignment="top" Margin="47,89,0,0"  Width="123" />
+
+        <TextBox Height="25" HorizontalAlignment="Left" Name="tbUserId" VerticalAlignment="top" Width="300" Margin="212,44,0,0" Text="GCOCAutomation" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="212,89,0,0" Name="tbPassword" VerticalAlignment="top" Width="300" />
+        <Button Content="Reset" Height="23" HorizontalAlignment="Left" Margin="437,127,0,0" Name="btnReset" VerticalAlignment="Top" Width="75" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="212,127,0,0" Name="TextBox1" VerticalAlignment="top" Width="211" Visibility="Hidden" />
+    </Grid>
+      
+           
+
+       </Window>

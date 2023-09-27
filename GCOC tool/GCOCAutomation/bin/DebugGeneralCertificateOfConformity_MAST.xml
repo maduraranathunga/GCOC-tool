@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+  <xfa:data>
+    <TopmostSubform>
+      <Page1>
+        <Table>
+          <Cell>
+            <GCOCFormName>GeneralCertificateOfConformity_MAST_v05082009.pdf </GCOCFormName>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <Description>CTN hiphugr rushed back fiber j 95% Cotton 5% Elastane</Description>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <VPONumber>4200758358</VPONumber>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <DateManufactured>09/02/2014</DateManufactured>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <GenericAtricleNum>11021516</GenericAtricleNum>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <ActualFactoryLocation>Brandix Apparel India</ActualFactoryLocation>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <CPO>11627113</CPO>
+            </Paragraph>
+          </Cell>
+          <Paragraph>
+            <Style>11021516</Style>
+          </Paragraph>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <Paragraph>
+              <FactoryName>Brandix Apparel India</FactoryName>
+            </Paragraph>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <Paragraph>
+              <FactoryAddress1>PLOT # 18,BIAC SEZ,PUDIMAKADA ROAD,ACHUTHAPURAM,VISHAKAPATHNAM,INDIA.</FactoryAddress1>
+            </Paragraph>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <FactoryEmail>ShiranB@brandix.com</FactoryEmail>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <FactoryPhone>00919701349501</FactoryPhone>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <FactoryPerson>Shiran Boteju</FactoryPerson>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <ImporterName>Mast Industries,Inc</ImporterName>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <Paragraph>
+              <ImporterAddress1>Mast Industries, Inc,C/o Rick Paul,2 Limited Parkway, 
+Columbus, OH 43230,USA.   </ImporterAddress1>
+            </Paragraph>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <ImporterPhone>614-415-2423</ImporterPhone>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <LabelerName>Victoria's Secret Stores</LabelerName>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <Paragraph>
+              <LabelerAddress1>Victoria's Secret Brand Management, 4 Limited Parkway Reynoldsburg, OH
+43068</LabelerAddress1>
+            </Paragraph>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <LabelerPhone>614-577-2404</LabelerPhone>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <TestingLabName>Bureau Veritas Sri Lanka</TestingLabName>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <Paragraph>
+              <TestingLabAddress1>Bureau Veritas Consumer Products Services(Pvt)Ltd, No.270,Dehiwala Rd,
+Bellanwila,Sri Lanka.</TestingLabAddress1>
+            </Paragraph>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <TestingLabPhone>(9411)2739546/7</TestingLabPhone>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate>09/05/2014</TestReportDate>
+              <TestReportNumber></TestReportNumber>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate5></TestReportDate5>
+              <TestReportNumber5></TestReportNumber5>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate9></TestReportDate9>
+              <TestReportNumber9></TestReportNumber9>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate2></TestReportDate2>
+              <TestReportNumber2></TestReportNumber2>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate6></TestReportDate6>
+              <TestReportNumber6></TestReportNumber6>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate10></TestReportDate10>
+              <TestReportNumber10></TestReportNumber10>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate3></TestReportDate3>
+              <TestReportNumber3></TestReportNumber3>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate7></TestReportDate7>
+              <TestReportNumber7></TestReportNumber7>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate11></TestReportDate11>
+              <TestReportNumber11></TestReportNumber11>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate4></TestReportDate4>
+              <TestReportNumber4></TestReportNumber4>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate8></TestReportDate8>
+              <TestReportNumber8></TestReportNumber8>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportDate12></TestReportDate12>
+              <TestReportNumber12></TestReportNumber12>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <ExemptFlammable>0</ExemptFlammable>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <SafetyToxPerspective>1</SafetyToxPerspective>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <ExemptTooSmall>1</ExemptTooSmall>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <TestReportCustodian></TestReportCustodian>
+            </Paragraph>
+          </Cell>
+          <Cell xfa:dataNode="dataGroup"></Cell>
+          <Cell>
+            <Paragraph>
+              <CFR1610>0</CFR1610>
+            </Paragraph>
+            <Paragraph xfa:dataNode="dataGroup"></Paragraph>
+            <Paragraph>
+              <CFR1615_1616>1</CFR1615_1616>
+            </Paragraph>
+            <Paragraph>
+              <CFR1631>1</CFR1631>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <CPSA>1</CPSA>
+            </Paragraph>
+            <Paragraph>
+              <CPSA_Matchbooks>1</CPSA_Matchbooks>
+            </Paragraph>
+            <Paragraph>
+              <CPSA_CigLighter>1</CPSA_CigLighter>
+            </Paragraph>
+            <Paragraph>
+              <CPSA_MultiLighter>1</CPSA_MultiLighter>
+            </Paragraph>
+            <Paragraph>
+              <PoisonPrevention>1</PoisonPrevention>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <FedHazardSubstanceAct>1</FedHazardSubstanceAct>
+            </Paragraph>
+            <Paragraph>
+              <HazardSubstanceLabel>1</HazardSubstanceLabel>
+            </Paragraph>
+          </Cell>
+          <Cell>
+            <Paragraph>
+              <CheckBox>1</CheckBox>
+            </Paragraph>
+            <Paragraph>
+              <CheckBox>1</CheckBox>
+            </Paragraph>
+            <Paragraph>
+              <SmallParts>1</SmallParts>
+            </Paragraph>
+            <Paragraph>
+              <SharpEdges>1</SharpEdges>
+            </Paragraph>
+            <Paragraph>
+              <SharpPoints>1</SharpPoints>
+            </Paragraph>
+            <Paragraph>
+              <Phthalates>1</Phthalates>
+            </Paragraph>
+          </Cell>
+        </Table>
+        <FedHazardSubstanceAct_Kids>1</FedHazardSubstanceAct_Kids>
+        <LedPaint>1</LedPaint>
+        <CertID>42007583581102151619092014172149</CertID>
+      </Page1>
+    </TopmostSubform>
+  </xfa:data>
+</xfa:datasets>
